@@ -5,7 +5,7 @@ public class Main {
       RWOnly obj = new RWOnly();
       //obj.name = 4;
       // since name has private access, its value cannot be directly set
-      obj.setname("Siddharth");
-      System.out.print(obj.getname());
+      obj.setName("Siddharth");
+      System.out.print(obj.getName());
   }
 }
